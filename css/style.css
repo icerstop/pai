@@ -1,0 +1,38 @@
+li { list-style-type: square }
+
+#cena {
+    color: red;
+    font-weight: bold;
+}
+
+.wstep {
+    font-style: italic;
+}
+
+td img {
+    border: 2px solid blue;
+}
+
+td img:hover {
+    border-color: red;
+}
+
+h1 + h2 {
+    letter-spacing: 5px;
+}
+
+td[colspan="2"] > p {
+    font-size: small;
+}
+
+p + p {
+    color: gray;
+}
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbDjVTFTecaKPcjmtp3QU-Cn6ffoHGPn0NnA&s);
+    background-repeat: repeat-y;
+}
+
+h1 { color: blue; }
+h1 { color: green; }
